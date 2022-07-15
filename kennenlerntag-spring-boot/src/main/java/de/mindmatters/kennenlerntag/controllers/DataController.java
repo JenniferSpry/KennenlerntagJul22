@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class DataController {
     @RequestMapping(value = "/api/v1/data/public/*")
     public String getPublicData() {
-        return "Public Data : ";
+        return "Public data : ";
     }
 
     @RequestMapping(value = "/api/v1/data/private/*")

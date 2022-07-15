@@ -5,6 +5,7 @@
 Folgende Endpunkte sollten erreichbar sein:
 * http://localhost:8080/api/v1/data/public/*
 * http://localhost:8080/api/v1/data/private/*
+* http://localhost:8080/greeting?name=Anna
 
 ### Enwicklung mit Docker
 
